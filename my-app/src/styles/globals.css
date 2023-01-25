@@ -1,0 +1,79 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  color: black;
+  background: white;
+  margin: 0px;
+}
+ /* SECTION CTA  */
+.section-cta {
+  background-color: #e0ecfc;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-cta-h1 {
+  margin-top: 0px;
+  color:#2273bd;
+}
+.section-cta-p {
+  color:rgba(83, 83, 83, 0.88);
+  text-align: center;
+  font-size: 1.2rem;
+}
+.section-cta-span {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color:#888b94;
+  font-size: 0.85rem;
+}
+
+.section-ctaLink {
+  margin-top: 1.5rem;
+  padding:15px 42px;
+  color:#064d74;
+  text-decoration: none;
+  background-color: #ffcc04;
+  border-radius: 8px;
+}
+
+/* SECTION INFO */
+
+.section-info {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.section-info-left {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.section-info-right {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+}
+.section-info-left-h1 {
+  color:#2273bd;
+}
+.section-info-left-p {
+  color:rgba(83, 83, 83, 0.88);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
