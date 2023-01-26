@@ -58,11 +58,11 @@ const Home:NextPage<Props> = ({sectionInfo,sectionName}) => {
 
 export const getServerSideProps: GetServerSideProps = async (query) => {
 
-  const data = await fetch('https://082dgzyp.api.sanity.io/v1/data/query/production?query=*[_type=="LandingPage"]')
+  const data = await fetch('https://082dgzyp.api.sanity.io/v1/data/query/production?query=*[_type=="Landing"]')
   .then(res => res.json())
   .then(data => data.result)
-  const sectionInfo = data[0].SectionInfo
-  const sectionName = data[0].Sectionname
+  const sectionInfo = data[0].sections[1]
+  const sectionName = data[0].sections[0]
 
   if(!sectionInfo || !sectionName){
     return {

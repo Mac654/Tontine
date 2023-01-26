@@ -5,7 +5,6 @@ import author from './author'
 import landingPage from './landing-page'
 import sectionCta from './section-cta'
 import sectionInfo from './section-info'
-landingPage.fields.push(sectionInfo)
-landingPage.fields.push(sectionCta)
 
-export const schemaTypes = [post, author, category, blockContent,landingPage]
+
+export const schemaTypes = [post, author, category, blockContent,landingPage,sectionCta,sectionInfo]
