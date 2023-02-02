@@ -1,3 +1,3 @@
 # Tontine,
-Solving problem with Sanity and NextJS 
+Solving problem with Sanity and NextJS !
 
